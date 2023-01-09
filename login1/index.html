@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="imagem">
+                <img src="img/avatar.png" alt="imagem">
+            </div>
+
+            <div class="formulario">
+                <h1>BEM VINDO</h1>
+                
+                <form action="#" method="post" autocomplete="on">
+                    <div class="campo">
+                        <span class="material-icons">person</span>
+                        
+                        <input type="text" name="usuario" id="usuario" placeholder="Username" required autocomplete="username">
+                    </div>
+
+                    <div class="campo">
+                        <span class="material-icons">lock</span>
+
+                        <input type="password" name="senha" id="senha" placeholder="Password" required autocomplete="current-password" minlength="5" max="20">
+                    </div>
+
+                    <a href="#" class="esqueceusenha">Esqueceu a senha</a>
+
+                    <input type="submit" value="Login" class="login">
+                </form>
+
+            </div>
+        </section>
+    </main>
+</body>
+</html>
