@@ -174,5 +174,8 @@ body {
 @media(min-width: 800px) {
     .login {
         width: 400px;
+        max-height: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
