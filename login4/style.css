@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #5f7c8a;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    background-color: #fff;
+    width: 90vw;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form h1{
+    color: #45A8A8;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.campo {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.campo input {    
+    width: 100%;
+    padding: 10px 0;
+    margin-left: 8px;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #45A8A8;
+}
+
+.campo input:focus {
+    padding-left: 5px;
+}
+
+.campo input::placeholder {
+    padding-left: 10px;
+}
+
+.login {
+    background-color: #45A8A8;
+    color: #fff;
+    width: 100%;
+    margin-bottom: 2rem;
+    height: 45px;
+    border-radius: 20px;
+    font-size: 1.4rem;
+}
+
+.login:hover {
+    background-color: #255d5d;
+}
+
+.esqueceusenha {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    font-size: 15px;
+    color: #45A8A8;
+}
+
+.or {
+    font-weight: bold;
+    color: black;
+}
+
+form p {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #575657;
+    margin-bottom: 2rem;
+}
+
+.icones {
+    text-align: center;
+}
+
+.icone {
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #45A8A8;
+    padding: 10px;
+    margin-right: 5px;
+}
